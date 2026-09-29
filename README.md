@@ -24,4 +24,4 @@ python main.py
 - **Generate Shopping List:** Generates a deduplicated `.txt` shopping list based on your meal plan.
 
 ## Storage
-All data is saved locally in `data/recipes.json` and `data/meal_plan.json`. It will persist after you close the program. Shopping lists are exported to `data/shopping_list.txt`.
+Recipes are saved in `data/recipes.json`, and the weekly meal plan is saved in the simple two-column CSV file `data/meal_plan.csv`. Both persist after you close the program. Shopping lists are exported to `data/shopping_list.txt`.
