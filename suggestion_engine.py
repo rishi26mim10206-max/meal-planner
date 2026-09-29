@@ -1,3 +1,4 @@
+=
 """
 suggestion_engine.py
 This module ranks recipes by how well they match the ingredients the user has.
@@ -47,6 +48,12 @@ def calculate_match(recipe_ingredients, available):
     }
  
  
+def sort_key(item):
+    """Return the value used to rank one suggestion (smaller = shown earlier)."""
+    # Negative match_percent is used because Python's sort() is ascending by default.
+    return (-item["match_percent"], len(item["missing"]))
+ 
+ 
 def suggest_recipes(available_ingredients, recipes, top_n=8):
     """
     Evaluate each recipe and pick the best matches based on ingredient overlap.
@@ -63,18 +70,19 @@ def suggest_recipes(available_ingredients, recipes, top_n=8):
     for recipe in recipes:
         match_info = calculate_match(recipe['ingredients'], available_ingredients)
  
-        results.append({
-            "recipe": recipe,
-            "match_percent": match_info["match_percent"],
-            "matched": match_info["matched"],
-            "missing": match_info["missing"],
-            "matched_count": match_info["matched_count"],
-            "total_ingredients": match_info["total_ingredients"]
-        })
+        # Skip recipes that share no ingredient with what the user has.
+        if match_info["match_percent"] > 0:
+            results.append({
+                "recipe": recipe,
+                "match_percent": match_info["match_percent"],
+                "matched": match_info["matched"],
+                "missing": match_info["missing"],
+                "matched_count": match_info["matched_count"],
+                "total_ingredients": match_info["total_ingredients"]
+            })
  
     # Sort by highest match percentage first, then by fewer missing ingredients.
-    # Negative match_percent is used because Python's sort() is ascending by default.
-    results.sort(key=lambda x: (-x["match_percent"], len(x["missing"])))
+    results.sort(key=sort_key)
  
     return results[:top_n]
  
@@ -94,7 +102,7 @@ def display_suggestions(suggestions):
         print(f"\n{idx}. {recipe['name']}  ({recipe['cuisine']})")
         print(f"   Match      : {item['match_percent']}% "
               f"({item['matched_count']}/{item['total_ingredients']} ingredients)")
-        print(f"   Prep Time  : {recipe['prep_time']}")
+        print(f"   Prep Time  : {recipe['prep_time']} mins")
  
         if item["matched"]:
             print(f"   You have   : {', '.join(item['matched'])}")
