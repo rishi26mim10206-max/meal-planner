@@ -1,0 +1,485 @@
+[
+    {
+        "name": "Vegetable Fried Rice",
+        "ingredients": [
+            "rice",
+            "carrot",
+            "beans",
+            "capsicum",
+            "onion",
+            "garlic",
+            "soy sauce",
+            "oil",
+            "salt",
+            "black pepper",
+            "spring onion"
+        ],
+        "steps": [
+            "Cook rice and let it cool completely.",
+            "Heat oil in a pan and saute garlic and onion.",
+            "Add chopped vegetables and stir-fry on high heat.",
+            "Add soy sauce, salt and pepper.",
+            "Add cooled rice and mix well.",
+            "Garnish with spring onion and serve hot."
+        ],
+        "cuisine": "Chinese",
+        "prep_time": 25
+    },
+    {
+        "name": "Paneer Butter Masala",
+        "ingredients": [
+            "paneer",
+            "onion",
+            "tomato",
+            "butter",
+            "cream",
+            "cashew",
+            "garam masala",
+            "red chilli powder",
+            "turmeric powder",
+            "salt",
+            "ginger",
+            "garlic"
+        ],
+        "steps": [
+            "Make a smooth paste of onion, tomato, ginger, garlic and cashew.",
+            "Heat butter and cook the paste until oil separates.",
+            "Add spice powders and salt.",
+            "Add water or milk to adjust consistency.",
+            "Add paneer cubes and cream.",
+            "Simmer for 5 minutes and serve."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 35
+    },
+    {
+        "name": "Egg Bhurji",
+        "ingredients": [
+            "egg",
+            "onion",
+            "tomato",
+            "green chilli",
+            "coriander leaves",
+            "turmeric powder",
+            "red chilli powder",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Heat oil and saute onion until golden.",
+            "Add tomato and green chilli and cook until soft.",
+            "Add turmeric, chilli powder and salt.",
+            "Pour beaten eggs and scramble on medium heat.",
+            "Garnish with coriander leaves and serve."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 15
+    },
+    {
+        "name": "Pasta Arrabbiata",
+        "ingredients": [
+            "pasta",
+            "tomato",
+            "garlic",
+            "red chilli",
+            "olive oil",
+            "salt",
+            "black pepper",
+            "basil"
+        ],
+        "steps": [
+            "Boil pasta until al dente.",
+            "Heat olive oil and saute garlic and chilli.",
+            "Add chopped tomatoes and cook into a sauce.",
+            "Season with salt and pepper.",
+            "Toss the pasta in the sauce.",
+            "Garnish with basil and serve."
+        ],
+        "cuisine": "Italian",
+        "prep_time": 25
+    },
+    {
+        "name": "Chicken Curry",
+        "ingredients": [
+            "chicken",
+            "onion",
+            "tomato",
+            "ginger",
+            "garlic",
+            "turmeric powder",
+            "red chilli powder",
+            "coriander powder",
+            "garam masala",
+            "oil",
+            "salt",
+            "coriander leaves"
+        ],
+        "steps": [
+            "Heat oil and saute onion until golden.",
+            "Add ginger-garlic paste and cook.",
+            "Add tomatoes and spice powders.",
+            "Add chicken pieces and cook on high heat.",
+            "Add water and simmer until chicken is tender.",
+            "Finish with garam masala and coriander leaves."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 45
+    },
+    {
+        "name": "Aloo Paratha",
+        "ingredients": [
+            "wheat flour",
+            "potato",
+            "onion",
+            "green chilli",
+            "coriander leaves",
+            "salt",
+            "ajwain",
+            "oil",
+            "butter"
+        ],
+        "steps": [
+            "Boil and mash potatoes. Mix with onion, chilli, coriander and salt.",
+            "Make soft dough with wheat flour and water.",
+            "Stuff the potato mixture into dough balls.",
+            "Roll into parathas and cook on tawa with oil/butter.",
+            "Serve hot with curd or pickle."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 40
+    },
+    {
+        "name": "Tomato Soup",
+        "ingredients": [
+            "tomato",
+            "onion",
+            "garlic",
+            "butter",
+            "salt",
+            "black pepper",
+            "sugar",
+            "cream"
+        ],
+        "steps": [
+            "Boil tomatoes and onion until soft.",
+            "Blend into a smooth puree.",
+            "Heat butter and saute garlic.",
+            "Add the puree, salt, pepper and sugar.",
+            "Simmer and finish with cream."
+        ],
+        "cuisine": "Continental",
+        "prep_time": 25
+    },
+    {
+        "name": "Masala Dosa",
+        "ingredients": [
+            "rice",
+            "urad dal",
+            "potato",
+            "onion",
+            "mustard seeds",
+            "turmeric powder",
+            "green chilli",
+            "curry leaves",
+            "oil",
+            "salt"
+        ],
+        "steps": [
+            "Prepare fermented dosa batter from rice and urad dal.",
+            "Make potato masala with onion, spices and curry leaves.",
+            "Spread batter on hot tawa to make thin dosa.",
+            "Place potato filling inside and fold.",
+            "Serve with chutney and sambar."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 50
+    },
+    {
+        "name": "Vegetable Maggi",
+        "ingredients": [
+            "maggi",
+            "onion",
+            "tomato",
+            "carrot",
+            "capsicum",
+            "green chilli",
+            "maggi masala",
+            "oil",
+            "salt"
+        ],
+        "steps": [
+            "Heat oil and saute onion and vegetables.",
+            "Add water and bring to boil.",
+            "Add maggi noodles and tastemaker.",
+            "Cook until water is absorbed.",
+            "Serve hot."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 12
+    },
+    {
+        "name": "Dal Tadka",
+        "ingredients": [
+            "toor dal",
+            "onion",
+            "tomato",
+            "garlic",
+            "cumin seeds",
+            "mustard seeds",
+            "red chilli",
+            "turmeric powder",
+            "ghee",
+            "salt",
+            "coriander leaves"
+        ],
+        "steps": [
+            "Pressure cook toor dal with turmeric and salt.",
+            "Prepare tadka with ghee, cumin, mustard, garlic and chilli.",
+            "Add onion and tomato to the tadka.",
+            "Mix tadka into the cooked dal.",
+            "Garnish with coriander leaves."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 30
+    },
+    {
+        "name": "Grilled Cheese Sandwich",
+        "ingredients": [
+            "bread",
+            "cheese",
+            "butter",
+            "black pepper"
+        ],
+        "steps": [
+            "Butter the bread slices.",
+            "Place cheese between two slices.",
+            "Grill on tawa or sandwich maker until golden.",
+            "Sprinkle black pepper and serve."
+        ],
+        "cuisine": "Continental",
+        "prep_time": 10
+    },
+    {
+        "name": "Chana Masala",
+        "ingredients": [
+            "chickpeas",
+            "onion",
+            "tomato",
+            "ginger",
+            "garlic",
+            "cumin powder",
+            "coriander powder",
+            "garam masala",
+            "red chilli powder",
+            "oil",
+            "salt"
+        ],
+        "steps": [
+            "Saute onion, ginger and garlic.",
+            "Add tomatoes and spice powders.",
+            "Add boiled chickpeas and some water.",
+            "Simmer until gravy thickens.",
+            "Finish with garam masala."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 35
+    },
+    {
+        "name": "Omelette",
+        "ingredients": [
+            "egg",
+            "onion",
+            "green chilli",
+            "coriander leaves",
+            "salt",
+            "black pepper",
+            "oil"
+        ],
+        "steps": [
+            "Beat eggs with salt and pepper.",
+            "Add chopped onion, chilli and coriander.",
+            "Heat oil in a pan.",
+            "Pour the mixture and cook both sides.",
+            "Serve hot."
+        ],
+        "cuisine": "Continental",
+        "prep_time": 10
+    },
+    {
+        "name": "Jeera Rice",
+        "ingredients": [
+            "basmati rice",
+            "cumin seeds",
+            "ghee",
+            "salt",
+            "bay leaf"
+        ],
+        "steps": [
+            "Wash and soak basmati rice.",
+            "Heat ghee and crackle cumin seeds and bay leaf.",
+            "Add rice and salt.",
+            "Add water and cook until done.",
+            "Fluff and serve."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 25
+    },
+    {
+        "name": "Garlic Bread",
+        "ingredients": [
+            "bread",
+            "butter",
+            "garlic",
+            "coriander leaves",
+            "salt"
+        ],
+        "steps": [
+            "Mix softened butter with minced garlic, salt and coriander.",
+            "Spread the mixture on bread slices.",
+            "Toast on tawa or bake until golden.",
+            "Serve hot."
+        ],
+        "cuisine": "Continental",
+        "prep_time": 12
+    },
+    {
+        "name": "Palak Paneer",
+        "ingredients": [
+            "spinach",
+            "paneer",
+            "onion",
+            "tomato",
+            "ginger",
+            "garlic",
+            "garam masala",
+            "cream",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Blanch spinach and make a puree.",
+            "Saute onion, ginger, garlic and tomato.",
+            "Add spinach puree and cook.",
+            "Add paneer cubes and cream.",
+            "Simmer and serve."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 35
+    },
+    {
+        "name": "Veg Hakka Noodles",
+        "ingredients": [
+            "noodles",
+            "cabbage",
+            "carrot",
+            "capsicum",
+            "onion",
+            "garlic",
+            "soy sauce",
+            "vinegar",
+            "oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Boil noodles and keep aside.",
+            "Stir-fry garlic and vegetables on high heat.",
+            "Add soy sauce, vinegar, salt and pepper.",
+            "Toss the noodles well.",
+            "Serve hot."
+        ],
+        "cuisine": "Chinese",
+        "prep_time": 25
+    },
+    {
+        "name": "Curd Rice",
+        "ingredients": [
+            "rice",
+            "curd",
+            "milk",
+            "mustard seeds",
+            "curry leaves",
+            "green chilli",
+            "ginger",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Mix cooked rice with curd and little milk.",
+            "Prepare tempering with mustard, curry leaves, chilli and ginger.",
+            "Add tempering to the rice.",
+            "Adjust salt and serve chilled or at room temperature."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 20
+    },
+    {
+        "name": "French Toast",
+        "ingredients": [
+            "bread",
+            "egg",
+            "milk",
+            "sugar",
+            "butter",
+            "vanilla essence"
+        ],
+        "steps": [
+            "Beat egg with milk, sugar and vanilla.",
+            "Dip bread slices in the mixture.",
+            "Cook on buttered pan until golden on both sides.",
+            "Serve with honey or syrup."
+        ],
+        "cuisine": "Continental",
+        "prep_time": 15
+    },
+    {
+        "name": "Lemon Rice",
+        "ingredients": [
+            "rice",
+            "lemon",
+            "mustard seeds",
+            "urad dal",
+            "chana dal",
+            "green chilli",
+            "curry leaves",
+            "turmeric powder",
+            "oil",
+            "salt",
+            "peanut"
+        ],
+        "steps": [
+            "Cook rice and let it cool.",
+            "Prepare tempering with mustard, dals, chilli, curry leaves and peanut.",
+            "Add turmeric and salt.",
+            "Mix with rice and lemon juice.",
+            "Serve."
+        ],
+        "cuisine": "Indian",
+        "prep_time": 25
+    },
+    {
+        "name": "toast",
+        "ingredients": [
+            "bread",
+            "butter"
+        ],
+        "steps": [
+            "take bread",
+            "put in toaster",
+            "apply butter"
+        ],
+        "cuisine": "home",
+        "prep_time": "5"
+    },
+    {
+        "name": "dhokla",
+        "ingredients": [
+            "besan salt chilli water"
+        ],
+        "steps": [
+            "bake dhokla"
+        ],
+        "cuisine": "gujrati",
+        "prep_time": "30"
+    }
+]
