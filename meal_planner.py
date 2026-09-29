@@ -4,7 +4,6 @@ This file handles a weekly meal plan and exports a shopping list from the
 planned recipes.
 """
 
-import os
 import storage
 import utils
 
@@ -102,7 +101,7 @@ def generate_shopping_list():
         print(f"- {ing}")
 
     # Save the list to a text file in the data folder.
-    output_file = os.path.join(storage.DATA_DIR, 'shopping_list.txt')
+    output_file = f'{storage.DATA_DIR}/shopping_list.txt'
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write("=== Shopping List ===\n")
